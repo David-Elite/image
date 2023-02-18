@@ -23,7 +23,6 @@ import {
 } from 'react-native-image-picker';
 import {RNCamera} from 'react-native-camera';
 import Geolocation from '@react-native-community/geolocation';
-import Home from './app/Home/Home';
 const requestLocationPermission = async () => {
   try {
     const granted = await PermissionsAndroid.request(
